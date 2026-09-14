@@ -291,7 +291,6 @@ body {
     gap: 42px;
     align-self: stretch;
     background: #FFF;
-    position: relative; /* Esto es para que el contenedor de la etiqueta "tag-text-container" se posicione correctamente sobre este contenedor */
 }
 .proteinas-content {
     display: flex;
@@ -331,4 +330,7 @@ body {
     top: 41px;
     border-radius: 20px;
     background: var(--blue-900, #576D80);
+}
+.proteinas-content h2 {
+    position: relative; /* Esto es para que el contenedor de la etiqueta "tag-text-container" se posicione correctamente sobre este contenedor */
 }
