@@ -408,3 +408,22 @@ body {
     line-height: 28px; /* 140% */
     align-self: stretch;
 }
+
+.about-us {
+    display: flex;
+    padding: 60px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    align-self: stretch;
+    background: var(--yellow-100, #FDF6E4);
+}
+
+footer.footer {
+    display: flex;
+    padding: 20px 24px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    background: var(--yellow-100, #FDF6E4);
+}
