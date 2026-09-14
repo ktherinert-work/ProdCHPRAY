@@ -383,7 +383,6 @@ body {
     gap: 10px;
     flex-shrink: 0;
     align-self: stretch;
-    background: url(images/desayuno.jpg) lightgray 0.196px -9.015px / 100% 125.093% no-repeat;
 }
 .card-img-content {
     display: flex;
