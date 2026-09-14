@@ -190,7 +190,7 @@ body {
     background: var(--bg-error-secondary, #802B04);
 }
 .secundary-button a:hover {
-    color; #FFF;
+    color: #FFF;
 }
 
 .servicios {
