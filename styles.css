@@ -187,10 +187,8 @@ body {
     text-decoration: none;
 }
 .secundary-button:hover {
-    background: var(--bg-error-secondary, #802B04);
-}
-.secundary-button a:hover {
     color: #FFF;
+    background: var(--bg-error-secondary, #802B04);
 }
 
 .servicios {
