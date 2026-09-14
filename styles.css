@@ -384,6 +384,15 @@ body {
     align-self: stretch;
     background: url(images/desayuno.jpg) lightgray 0.196px -9.015px / 100% 125.093% no-repeat;
 }
+.card-img-content {
+    display: flex;
+    padding: 28px 18px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    }
 .card-img-title{
     color: var(--neutral-800, #383733);
     font-family: Inter;
