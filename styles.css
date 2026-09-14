@@ -309,7 +309,7 @@ body {
     align-items: center;
     gap: 21px;
     flex: 1 0 0;
-    background: url(images/proteinas.jpg) transparent 50% / contain no-repeat;
+    background: url(images/proteinas.jpg) transparent 50% / cover no-repeat;
 }
 .tag-text {
     color: #FFF;
