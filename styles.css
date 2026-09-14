@@ -326,11 +326,12 @@ body {
     flex-direction: column;
     align-items: flex-start;
     position: absolute;
-    left: 118px;
-    top: 41px;
+    left: 18px;
+    top: 10px;
     border-radius: 20px;
     background: var(--blue-900, #576D80);
 }
 .proteinas-content h2 {
     position: relative; /* Esto es para que el contenedor de la etiqueta "tag-text-container" se posicione correctamente sobre este contenedor */
+    text-align: left;
 }
