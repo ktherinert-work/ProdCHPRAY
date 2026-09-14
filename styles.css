@@ -308,7 +308,7 @@ body {
     align-items: center;
     gap: 21px;
     flex: 1 0 0;
-    background: url(<path-to-image>) lightgray 50% / contain no-repeat;
+    background: url(images/proteinas.jpg) lightgray 50% / contain no-repeat;
 }
 .tag-text {
     color: #FFF;
