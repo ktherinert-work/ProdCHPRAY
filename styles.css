@@ -161,6 +161,7 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    text-decoration: none;
 }
 .primary-button:hover {
     background: var(--bg-error-primary, #B23A0D);
@@ -186,6 +187,7 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    text-decoration: none;
 }
 .secundary-button:hover {
     background: var(--bg-error-secondary, #802B04);
@@ -289,7 +291,6 @@ body {
     gap: 42px;
     align-self: stretch;
     background: #FFF;
-    position: relative; /* Esto es para que el contenedor de la etiqueta "tag-text-container" se posicione correctamente sobre este contenedor */
 }
 .proteinas-content {
     display: flex;
@@ -299,6 +300,7 @@ body {
     align-items: flex-start;
     gap: 22px;
     flex: 1 0 0;
+    position: relative; /* Esto es para que el contenedor de la etiqueta "tag-text-container" se posicione correctamente sobre este contenedor */
 }
 .proteinas-image {
     display: flex;
