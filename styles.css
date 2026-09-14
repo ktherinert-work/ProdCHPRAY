@@ -289,6 +289,7 @@ body {
     gap: 42px;
     align-self: stretch;
     background: #FFF;
+    position: relative; /* Esto es para que el contenedor de la etiqueta "tag-text-container" se posicione correctamente sobre este contenedor */
 }
 .proteinas-content {
     display: flex;
@@ -308,7 +309,7 @@ body {
     align-items: center;
     gap: 21px;
     flex: 1 0 0;
-    background: url(images/proteinas.jpg) lightgray 50% / contain no-repeat;
+    background: url(images/proteinas.jpg) transparent 50% / contain no-repeat;
 }
 .tag-text {
     color: #FFF;
