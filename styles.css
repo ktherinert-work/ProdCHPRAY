@@ -371,7 +371,7 @@ body {
     border-radius: 20px;
     border: 1px solid var(--neutral-500, #9E9B95);
     background: #FFF;
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 .card-img-placeholder{  
     display: flex;
