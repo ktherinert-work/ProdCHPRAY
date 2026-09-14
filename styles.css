@@ -191,6 +191,7 @@ body {
 }
 .secundary-button:hover {
     background: var(--bg-error-secondary, #802B04);
+    color:#FFF
 }
 
 .servicios {
@@ -334,4 +335,70 @@ body {
 .proteinas-content h2 {
     position: relative; /* Esto es para que el contenedor de la etiqueta "tag-text-container" se posicione correctamente sobre este contenedor */
     text-align: left;
+}
+
+.sample-menu {
+    display: flex;
+    padding: 60px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 42px;
+    align-self: stretch;
+    background: var(--text-invert, #FCFBFA);
+}
+.sample-menu-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    align-self: stretch;
+}
+.cards-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 42px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+.card-img {
+    display: flex;
+    width: 461px;
+    height: 520px;
+    min-width: 430px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid var(--neutral-500, #9E9B95);
+    background: #FFF;
+}
+.card-img-placeholder{  
+    display: flex;
+    height: 200px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+    align-self: stretch;
+    background: url(images/desayuno.jpg) lightgray 0.196px -9.015px / 100% 125.093% no-repeat;
+}
+.card-img-title{
+    color: var(--neutral-800, #383733);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    align-self: stretch;
+}
+.card-img-text{
+    color: var(--neutral-700, #52504B);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    align-self: stretch;
 }
