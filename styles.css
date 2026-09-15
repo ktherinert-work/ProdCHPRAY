@@ -454,12 +454,12 @@ body {
     justify-self: stretch;
     background: var(--neutral-700, #52504B);
 }
-/*.icon-cards2 i{
+.icon-cards2{
     width: 19.889px;
     height: 19.928px;
     stroke-width: 2px;
-    stroke: #FFF;
-}*/
+    color: #FFF;
+}
 .secundary-title {
     color: #FFF;
     font-family: "Playfair Display";
