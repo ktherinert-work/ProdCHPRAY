@@ -256,13 +256,7 @@ body {
     border-radius: 10px;
     background: var(--neutral-200, #EBE9E3);
 }
-i{
-    flex-shrink: 0;
-    stroke-width: 2px;
-    stroke: var(--neutral-800, #383733);
-    width: 20px;
-    height: 20px;
-}
+
 .cards h3 {
     color: var(--neutral-800, #383733);
     font-family: Inter;
