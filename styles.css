@@ -256,7 +256,7 @@ body {
     border-radius: 10px;
     background: var(--neutral-200, #EBE9E3);
 }
-.cards i{
+i{
     flex-shrink: 0;
     stroke-width: 2px;
     stroke: var(--neutral-800, #383733);
@@ -460,12 +460,12 @@ body {
     justify-self: stretch;
     background: var(--neutral-700, #52504B);
 }
-.icon-cards2 i{
+/*.icon-cards2 i{
     width: 19.889px;
     height: 19.928px;
     stroke-width: 2px;
     stroke: #FFF;
-}
+}*/
 .secundary-title {
     color: #FFF;
     font-family: "Playfair Display";
