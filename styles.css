@@ -255,8 +255,9 @@ body {
     gap: 10px;
     border-radius: 10px;
     background: var(--neutral-200, #EBE9E3);
+    color: var(--neutral-800, #383733);
+    stroke-width: 2px;
 }
-
 .cards h3 {
     color: var(--neutral-800, #383733);
     font-family: Inter;
