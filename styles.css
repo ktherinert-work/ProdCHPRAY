@@ -411,6 +411,7 @@ body {
     align-items: center;
     align-self: stretch;
     background: var(--yellow-100, #FDF6E4);
+    gap: 42px;
 }
 .contact-section{
     display: flex;
