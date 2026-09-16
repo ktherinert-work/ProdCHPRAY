@@ -409,9 +409,16 @@ body {
     padding: 60px 24px;
     flex-direction: column;
     align-items: center;
+    gap: 42px;
+    align-self: stretch;
+    background: var(--yellow-100, #FDF6E4);}
+    /*display: flex;
+    padding: 60px 24px;
+    flex-direction: column;
+    align-items: center;
     align-self: stretch;
     background: var(--yellow-100, #FDF6E4);
-}
+}*/
 .contact-section{
     display: flex;
     padding: 10px;
