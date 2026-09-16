@@ -234,7 +234,6 @@ body {
 .cards {
     display: flex;
     width: 312px;
-    height: 305px;
     min-width: 312px;
     min-height: 305px;
     padding: 22px;
