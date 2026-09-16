@@ -480,3 +480,32 @@ body {
     line-height: normal;
     align-self: stretch;
 }
+
+.footer {
+    display: flex;
+    padding: 10px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    background: var(--yellow-100, #FDF6E4);
+}
+.footer-tile {
+    color: var(--text-primary, #1F1E1C);
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-self: stretch;
+}
+.footer-text {
+    color: var(--text-primary, #1F1E1C);
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-self: stretch;
+}
