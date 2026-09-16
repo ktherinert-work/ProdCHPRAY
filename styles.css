@@ -285,6 +285,7 @@ body {
     gap: 42px;
     align-self: stretch;
     background: #FFF;
+    flex-wrap: wrap;
 }
 .proteinas-content {
     display: flex;
