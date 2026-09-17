@@ -189,7 +189,7 @@ body {
     line-height: normal;
     text-decoration: none;
 }
-.secundary-button:hover, .secundary-button a:hover {
+.secundary-button:hover{
     color: #FFF;
     background: var(--bg-error-secondary, #802B04);
 }
