@@ -152,8 +152,6 @@ body {
     gap: 10px;
     border-radius: 10px;
     background: var(--bg-error-secondary, #802B04);
-}
-.primary-button a {
     color: var(--text-invert, #FCFBFA);
     text-align: center;
     font-family: "Noto Sans";
@@ -163,6 +161,9 @@ body {
     line-height: normal;
     text-decoration: none;
 }
+/*.primary-button a {
+    
+}*/
 .primary-button:hover {
     background: var(--bg-error-primary, #B23A0D);
 }
@@ -178,8 +179,6 @@ body {
     border-radius: 10px;
     border: 3px solid var(--bg-error-secondary, #802B04);
     background: #FFF;
-}
-.secundary-button a {
     color: var(--red-900, #802B04);
     text-align: center;
     font-family: "Noto Sans";
@@ -189,6 +188,9 @@ body {
     line-height: normal;
     text-decoration: none;
 }
+/*.secundary-button a {
+    
+}*/
 .secundary-button:hover{
     color: #FFF;
     background: var(--bg-error-secondary, #802B04);
