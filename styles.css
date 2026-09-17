@@ -161,9 +161,6 @@ body {
     line-height: normal;
     text-decoration: none;
 }
-/*.primary-button a {
-    
-}*/
 .primary-button:hover {
     background: var(--bg-error-primary, #B23A0D);
 }
@@ -188,12 +185,9 @@ body {
     line-height: normal;
     text-decoration: none;
 }
-/*.secundary-button a {
-    
-}*/
 .secundary-button:hover{
     color: #FFF;
-    background: var(--bg-error-secondary, #802B04);
+    background: var(--bg-error-primary, #B23A0D);
 }
 
 .servicios {
