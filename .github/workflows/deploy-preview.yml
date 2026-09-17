@@ -14,28 +14,16 @@ jobs:
 
     environment:
       name: preview
-      url: https://github.com/ktherinert-work/previewTestCHPRAY
+      url: https://ktherinert-work.github.io/CHPRAY-preview/
 
     steps:
       - name: Descargar el repositorio principal
         uses: actions/checkout@v4
 
-      - name: Configurar Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: npm
-
-      - name: Instalar dependencias
-        run: npm ci
-
-      - name: Construir la aplicación
-        run: npm run build
-
-      - name: Publicar en el repositorio preview
+      - name: Publicar sitio estático en el repositorio preview
         uses: peaceiris/actions-gh-pages@v4
         with:
           personal_token: ${{ secrets.PREVIEW_REPO_TOKEN }}
-          external_repository: ktherinert-work/previewTestCHPRAY
+          external_repository: ktherinert-work/CHPRAY-preview
           publish_branch: gh-pages
-          publish_dir: ./dist
+          publish_dir: .
