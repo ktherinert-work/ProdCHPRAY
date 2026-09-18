@@ -27,3 +27,4 @@ jobs:
           external_repository: ktherinert-work/previewTestCHPRAY
           publish_branch: gh-pages
           publish_dir: .
+          exclude: CNAME
