@@ -20,6 +20,9 @@ jobs:
       - name: Descargar el repositorio principal
         uses: actions/checkout@v4
 
+      - name: Quitar CNAME de producción
+        run: rm -f CNAME
+      
       - name: Publicar sitio estático en el repositorio preview
         uses: peaceiris/actions-gh-pages@v4
         with:
@@ -27,4 +30,3 @@ jobs:
           external_repository: ktherinert-work/previewTestCHPRAY
           publish_branch: gh-pages
           publish_dir: .
-          exclude: CNAME
